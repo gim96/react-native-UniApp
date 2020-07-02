@@ -1,5 +1,15 @@
 {
   "expo": {
+
+   
+   
+
+    "android": {
+      "package": "com.whileLoop.simpleCal",
+      "versionCode": 1
+    },
+   
+
     "name": "myNewProject",
     "slug": "myNewProject",
     "platforms": [
