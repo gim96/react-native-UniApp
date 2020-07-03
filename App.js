@@ -10,6 +10,7 @@ import {
   Header,
   Button
   ,Linking 
+
 } from 'react-native';
 import Constants from 'expo-constants';
 import * as Animatable from 'react-native-animatable';
@@ -30,7 +31,7 @@ const CONTENT = [
   },
   {
     title: 'Courses',
-    content: '1.Master of Business Administration , 2.M.Sc. in Information Security',
+    content: '1.Master of Business Administration , 2.M.Sc. in Information Security , 3.BSc (Hons) Psychology and Counselling , 4.BA (Hons) Human Resource Management , 5.BSc (Hons) Global Logistics , 6.BA (Hons) Management and Leadership , 7.BA (Hons) Professional Accounting , 8.BSc (Hons) Ethical Hacking and Network Security , 9.BSc (Hons) Computing , 10.BA (Hons) Creative Multimedia',
   },
   {
     title: 'Collaborated Universities',
@@ -75,7 +76,7 @@ export default class App extends Component {
          <DataTable >
          <DataTable.Row>
          <DataTable.Cell>
-           <Text style={styles.mainTitle}>{section.title}   <Image  source={require('./down.png')}  />    </Text>
+         <Image  source={require('./down.png')}  />  <Text style={styles.mainTitle}>{section.title}      </Text>
           </DataTable.Cell>
           {/* <DataTable.Cell>
           
@@ -115,6 +116,8 @@ export default class App extends Component {
         <ScrollView contentContainerStyle={{ paddingTop: 30 }}>
       
           {/* <View style={styles.multipleToggle}> */}
+        
+
           <Image style={styles.img} source={require('./logo.png')}  />
                 <Text  style={styles.sub}>  National Instaitute of Business Management</Text>
                 <Text></Text>
@@ -210,7 +213,7 @@ const styles = StyleSheet.create({
     
   },
   inactive: {
-    backgroundColor: '#83ccfc',
+    backgroundColor: '#AED6F1',
     
   },
   selectors: {

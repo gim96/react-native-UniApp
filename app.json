@@ -1,17 +1,11 @@
 {
   "expo": {
-
-   
-   
-
     "android": {
       "package": "com.whileLoop.simpleCal",
       "versionCode": 1
     },
-   
-
-    "name": "myNewProject",
-    "slug": "myNewProject",
+    "name": "uniApp1",
+    "slug": "uniapp1",
     "platforms": [
       "ios",
       "android",
@@ -33,6 +27,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "this is my first react native app",
+    "githubUrl": "https://github.com/gim96/react-native-uniApp"
   }
 }
